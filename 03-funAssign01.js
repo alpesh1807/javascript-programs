@@ -6,7 +6,7 @@ function show(){
 show(); 
 
 function demo(){
-    console.log("I am learing JavaScript");
+    console.log("I am learning JavaScript");
 }
 demo(); 
 
