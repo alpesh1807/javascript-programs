@@ -1,0 +1,19 @@
+console.log("============= Dream Job Name with no arguments and no return value ===============");
+
+function stringBasics () {
+    console.log(`My Dream Company Name is "Google"`);
+    console.log("============= My Hoobies ===============");
+    var hobbyOne ="Reading";
+    var hobbyTwo = "Traveling" ;
+    var hobbyThree = "Cooking";
+    console.log(`My Hobbies are : ${hobbyOne}, ${hobbyTwo}, ${hobbyThree} `); 
+    console.log("============= Sum of Total Number of Characters ==============="); 
+    var hobbyOneLength  = hobbyOne.length
+    var hobbyTwoLength  = hobbyTwo.length
+    var hobbyThreeLength  = hobbyThree.length
+    var result= hobbyOneLength + hobbyTwoLength + hobbyThreeLength;
+    console.log(`Total characters are : ${result}`);
+
+}
+
+stringBasics();
